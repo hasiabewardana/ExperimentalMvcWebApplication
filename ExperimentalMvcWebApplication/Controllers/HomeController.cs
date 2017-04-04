@@ -8,6 +8,7 @@ namespace ExperimentalMvcWebApplication.Controllers
 {
     public class HomeController : Controller
     {
+        [NonAction]
         public ActionResult Index()
         {
             return View();
